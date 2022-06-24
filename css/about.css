@@ -1,0 +1,112 @@
+.about{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.club{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-club{
+    padding: 50px 0;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 20px;
+}
+.about h1{
+    padding-bottom: 30px;
+    font-size: 35px;
+    color: rgb(11, 82, 129);
+}
+.about p{
+    text-align: justify;
+}
+
+#back{
+    background: url('../images/banner.jpg') no-repeat center center fixed;
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-origin: inherit;
+    background-size: cover;
+}
+
+.activities{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.activity{
+    width: 80%;
+    padding: 50px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.activity h1{
+    padding-bottom: 30px;
+    font-size: 35px;
+    color: rgb(11, 82, 129);
+}
+
+
+.activity p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+.activity .list{
+    width: 100%;
+    height: 250px;
+    color: rgb(37, 37, 37);
+}
+
+
+.activity .list ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.activity .list ul li{
+    margin: 5px 10px;
+}
+
+
+.activity .list h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding: 20px 0 4px;
+}
+
+.join{
+    width: 100%;
+    height: 300px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(37, 37, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+}
+
+.join .text{
+    width: 80%;
+}
+
+.join h3{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:rgb(37, 37, 37);
+    padding: 0px 0 35px;
+}
