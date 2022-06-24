@@ -1,0 +1,2 @@
+# SEUCC
+Just For Practice
